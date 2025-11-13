@@ -9,10 +9,17 @@ public class Panda extends Animal {
 		return this.cor;
 	}
 	
-	public String emitirSom() {
+	public String EmetirSom() {
 		return "Grrrr"; //barulho do panda comendo
 	}
 	
+	public void Passear() {
+        this.felicidade += 1;
+
+        System.out.println("Dormiu antes de sair de casa!");
+
+    }
+
 	public void subirArvore() {
 		System.out.println("Subindo em árvores e pulando.");
 		

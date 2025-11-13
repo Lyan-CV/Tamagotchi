@@ -43,6 +43,13 @@ public abstract class Animal {
 	
 	public abstract String EmetirSom();
 	
+	public void Passear(){
+		this.felicidade +=10;
+
+		System.out.println("Passeando!");
+
+	}
+
 	public void MostrarStatus(){
 		System.out.println("Nome: "+this.nome+ "\nEnergia: "+this.energia+"\nFome: "+this.fome+"\nSede: "+this.sede+"\nFelicidade: "+this.felicidade+"\nSaude: "+this.saude);
 	}

@@ -14,7 +14,14 @@ public class Corvo extends Animal{
         return this.raca;
     }
 
-    public String emitirSom() {
+    public void Passear() {
+        this.felicidade += 15;
+
+        System.out.println("Sobrevoando o bairro!");
+
+    }
+
+    public String EmetirSom() {
 		return "Cuáááá"; //barulho do panda comendo
 	}
 
